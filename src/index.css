@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 220 15% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 20%;
+
+    /* Brand colors - vibrant gradients */
+    --primary: 208 76% 58%; /* Blue #4A90E2 */
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 166 75% 60%; /* Teal #50E3C2 */
+
+    --secondary: 337 100% 63%; /* Pink #FF4081 */
+    --secondary-foreground: 0 0% 100%;
+
+    --accent: 272 65% 60%; /* Purple #9B51E0 */
+    --accent-foreground: 0 0% 100%;
+
+    --muted: 0 0% 97%;
+    --muted-foreground: 220 10% 50%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 90%;
+    --input: 220 15% 90%;
+    --ring: 208 76% 58%;
+
+    --radius: 1rem;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(208, 76%, 58%) 0%, hsl(166, 75%, 60%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(337, 100%, 63%) 0%, hsl(272, 65%, 60%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(272, 65%, 60%) 0%, hsl(208, 76%, 58%) 100%);
+    
+    /* Shadows with brand colors */
+    --shadow-primary: 0 10px 40px -10px hsl(208, 76%, 58%, 0.3);
+    --shadow-secondary: 0 10px 40px -10px hsl(337, 100%, 63%, 0.3);
+    --shadow-glow: 0 0 50px hsl(166, 75%, 60%, 0.4);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold;
+  }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .gradient-secondary {
+    background: var(--gradient-secondary);
+  }
+
+  .gradient-accent {
+    background: var(--gradient-accent);
+  }
+
+  .shadow-primary {
+    box-shadow: var(--shadow-primary);
+  }
+
+  .shadow-secondary {
+    box-shadow: var(--shadow-secondary);
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-primary);
+  }
+}
