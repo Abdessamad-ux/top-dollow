@@ -9,11 +9,11 @@ const Services = () => {
   const instagramServices = [
     { title: "1K Instagram Followers", price: "5.99", description: "Boost your Instagram profile with high-quality followers", features: ["High Quality Followers", "Fast delivery", "24/7 support"], link: "https://www.paypal.com/ncp/payment/TMW2TJTEVVFWE" },
     { title: "5K Instagram Followers", price: "22.99", description: "5000 followers on Instagram", features: ["High Quality Followers", "Fast delivery", "24/7 support"], popular: true, link: "https://www.paypal.com/ncp/payment/5H72DVQXX2LJW" },
-    { title: "10K Instagram Followers", price: "44.99", description: "10000 followers on Instagram", features: ["High Quality Followers", "Fast delivery", "24/7 support"], link: "https://www.paypal.com/ncp/payment/6FQ9H7PV68JZ2" },
+    { title: "3K Instagram Followers", price: "13.99", description: "3000 followers on Instagram", features: ["High Quality Followers", "Fast delivery", "24/7 support"], link: "https://www.paypal.com/ncp/payment/6FQ9H7PV68JZ2" },
+    { title: "500 Instagram Followers", price: "3.99", description: "500 followers on Instagram", features: ["High Quality Followers", "Fast delivery", "24/7 support"], link: "https://www.paypal.com/ncp/payment/TXRVZJUSTWGQE" },
     { title: "50 Instagram Comments", price: "4.99", description: "50 Custom Comments on Instagram", features: ["Custom Comments", "Fast delivery", "24/7 support"], link: "https://www.paypal.com/ncp/payment/67CCM76PEVPLS" },
     { title: "1K Instagram Likes", price: "3.99", description: "Boost your posts with authentic likes", features: ["Instant start", "Real engagement"], link: "https://www.paypal.com/ncp/payment/ST43MTZ94UU5S" },
     { title: "1K Instagram Views", price: "3.99", description: "Increase your video visibility", features: ["Fast delivery", "Real views"], link: "https://www.paypal.com/ncp/payment/N3Z4HN7TWWXG6" },
-    { title: "1K Instagram Saves", price: "3.99", description: "Increase Saves on Your Instagram Posts & Reels", features: ["Fast delivery", "Real Saves"], link: "https://www.paypal.com/ncp/payment/QWRAQQ8CDK7XL" },
     { title: "1K Instagram Shares", price: "3.99", description: "Increase your Reel reach with Shares", features: ["Fast delivery", "Real Shares"], link: "https://www.paypal.com/ncp/payment/C48DAJ2VAJ9BL" },
   ];
 
