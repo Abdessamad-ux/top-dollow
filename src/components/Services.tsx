@@ -186,7 +186,7 @@ const Services = () => {
                     </div>
 
                     <div className="flex items-baseline gap-1">
-                      <span className="text-5xl font-bold gradient-text">$299</span>
+                      <span className="text-5xl font-bold gradient-text">£299</span>
                       <span className="text-muted-foreground">/lifetime</span>
                     </div>
 
