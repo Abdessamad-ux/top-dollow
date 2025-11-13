@@ -28,7 +28,7 @@ const ServiceCard = ({ title, price, description, features, popular, link }: Ser
       </div>
 
       <div className="flex items-baseline gap-1">
-        <span className="text-4xl font-bold gradient-text">${price}</span>
+        <span className="text-4xl font-bold gradient-text">£{price}</span>
         <span className="text-muted-foreground">/package</span>
       </div>
 
